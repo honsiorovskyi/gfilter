@@ -13,12 +13,13 @@ yarn
 
 ```
 cp config.example.js config.js
-vim config.js 
+vim config.js
+```
 
-# <read through the example config and adjust it to your taste>
-# [don't hesitate looking into index.js too to understand how it works]
-# [it's tiny but not a great quality code — I wanted to make it fast, sorry for that :)]
-# [also have a look at filter.xml after the generation, it's big but easy to understand]
+* Read through the example config and adjust it to your taste.
+* Don't hesitate looking into index.js too to understand how it works.
+* It's tiny but not a great quality code — I wanted to make it fast, sorry for that :)
+* Also have a look at filter.xml after the generation, it's big but easy to understand.
 
 ## Run
 
@@ -34,5 +35,5 @@ yarn start
 * Don't forget to tick the checkbox if you want to apply it to your existing mail
 * Click the final button and wait until it applies all filters (it takes time - that's okay)
 
-## Troubleshooting
+## Troubleshoot
 If you screwed up somewhere, just delete both the labels and filters you've imported and start from scratch. Be careful with the `read` and `archive` options though, it's hard to reverse them, so better test things with both set to `false`.
